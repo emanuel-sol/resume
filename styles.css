@@ -1,0 +1,177 @@
+/* Color Palette
+#99F7AB - pale green
+#D6F9DD - nyanza
+#60695C - granite gray
+#C5D6D8 - colombia blue
+*/
+
+/* Global styles
+----------------------- */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+h1, h2 {
+	font-family: 'Crete Round', serif;
+	font-weight: 400;
+}
+
+h3 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 40px;
+	margin-top: 0;
+}
+
+a {
+	color: #60695C;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.content-wrap {
+	max-width: 950px;
+	margin: 0 auto;
+	padding: 60px 50px;
+	overflow: hidden;
+}
+
+.col-narrow {
+	width: 30%;
+	float: left;
+}
+
+.col-wide {
+	width: 70%;
+	float: left;
+	padding-left: 20px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.btn {
+	text-decoration: none;
+	background: #99F7AB;
+	color: #60695C;
+	padding: 10px;
+	display: inline-block;
+}
+
+/* Header and Footer 
+----------------------- */
+
+.profile-img {
+	border-radius: 50%;
+}
+
+.download {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+header, footer {
+	background: #60695C;
+	color: #D6F9DD;
+}
+
+
+/* header */
+header h1, header h2 {
+	color: #D6F9DD;
+	margin: 0;
+}
+
+header {
+	padding-top: 50px;
+	position: relative;
+}
+
+/* footer */
+footer {
+	text-align: center;
+}
+
+.contact-info a {
+	padding: 10px;
+	display: inline-block;
+	overflow: auto;
+	color: #60695C;
+	background: #C5D6D8;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.contact-info {
+	font-size: 0;
+}
+
+
+/* Navigation
+----------------------- */
+nav {
+	text-align: center;
+	background: #C5D6D8;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+nav a {
+	display: inline-block;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+/* Work Experience
+----------------------- */
+
+.work {
+	background: #C5D6D8;
+}
+
+h3 ~ p {
+	margin: 0;
+}
+
+.job-description p:first-of-type {
+	margin: 0;
+}
+
+.job-description {
+	margin-bottom: 25px;
+}
+
+/* Education 
+----------------------- */
+
+.education {
+	background: linear-gradient(rgba(214, 249, 221, 0.5), rgba(214, 249, 221, 0.8)), 
+	url(../images/atlanta.jpg) no-repeat fixed;
+	background-size: cover;
+}
+
+p + h3 {
+	margin-top: 30px;
+}
