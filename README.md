@@ -4,4 +4,4 @@ This is a website that I've created to demonstrate both my skills as a front end
 
 ## Getting Started
 
-Simply navigate to this webpage to view the website github.com/emanuel-sol/resume
+Simply navigate to this webpage to view the website https://emanuel-sol.github.io/resume/
